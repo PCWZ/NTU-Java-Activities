@@ -12,6 +12,19 @@ class VariableDataType {
         
         System.out.println("round prints " + round); // prints 9
 
+
+        /*
+            Task 2: Cast "price" as String and assign it to "priceAsString".            
+        */
+        String priceAsString = null; 
+        
+        // Add code here
+        priceAsString = String.valueOf(price);
+        System.out.println("priceAsString prints " + priceAsString); // prints "9.9"
+        System.out.println(priceAsString instanceof String); // prints true
+
+
+
         
     }
 }
