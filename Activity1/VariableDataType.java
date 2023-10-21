@@ -24,6 +24,17 @@ class VariableDataType {
         System.out.println(priceAsString instanceof String); // prints true
 
 
+         /*
+            Task 3: Cast "priceAsString" as int and assign it to "number".
+        */
+        int number = 0;
+        
+        // Add code here
+        float priceConvert = Float.valueOf(priceAsString);
+        number = (int) priceConvert;
+        System.out.println("number prints " + number); // prints 9;
+
+
 
         
     }
