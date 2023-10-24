@@ -1,6 +1,5 @@
 package Activity4;
 
-import javax.swing.text.Position;
 
 public class LearnMethods {
 
