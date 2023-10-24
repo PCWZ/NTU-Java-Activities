@@ -1,6 +1,6 @@
 package Activity6.building;
 
 public interface Building {
-    void addFloors(int floors);
+    void addFloor(int floors);
     void describe();
 }
